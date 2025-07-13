@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    background-color: transparent;
+    padding: 10px 40px;
+    color: white;
+    position: fixed;
+    width: 100%;
+}
+.top-nav{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.top-nav-right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.deliver-to{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.flag{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+
+.bottom-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px 0;
+}
+
+.bottom-nav ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.category{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.bottom-nav ul li{
+    list-style: none;
+    
+}
+
+.bottom-nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    width: 100%;
+    height:100vh;
+    background: url('bg.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+}
+.play{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+header div h1{
+    color: white;
+    margin-top: 10px;
+    font-size: 70px;
+    font-weight: 500;
+}
+
+main{
+    background-color:#3a190b;
+    padding: 60px 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.card{
+    background-color: rgba(255,102,0,.12);
+    padding: 40px 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.icon{
+    background-color: hsla(0,0%,100%,.08);
+    display: inline-flex;
+    border-radius: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.card h4{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.card p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.create{
+    background-color: #f60;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 40px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.search{
+    background-color: white;
+    width: 70%;
+    margin-top: 20px;
+    height: 60px;
+    border-radius: 40px;
+    outline: none;
+    border: none;
+    padding: 10px 40px;
+}
+.search input{
+    
+
+}
